@@ -1,0 +1,19 @@
+{
+  "name": "customRefs",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "eslint": "^7.6.0",
+    "eslint-config-ushironoko-vue": "^1.2.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7",
+    "vite": "^1.0.0-rc.1"
+  }
+}
