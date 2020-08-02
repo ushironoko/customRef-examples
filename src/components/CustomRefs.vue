@@ -6,12 +6,13 @@ import { diffRef } from '../composables/useDiffRef'
 export default defineComponent({
   name: 'CustomRefs',
   setup() {
-    // whenever a change is detected, the value is output to the browser console.
+    // Whenever a change is detected, the value is output to the browser console.
     const logValue = consoleLogRef(100)
     function plusOne() {
       logValue.value++
     }
 
+    // Custom ref that makes `isChanged` true if there is a change in the initial reactive value.
     const diffValue = diffRef({
       value: 0,
       isChanged: false,
