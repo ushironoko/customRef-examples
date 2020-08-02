@@ -5,14 +5,14 @@ export const consoleLogRef = <T>(value: T) => {
   return customRef((track, trigger) => {
     return {
       get() {
-        console.log('track on ', value)
         track()
+        console.log('track ', value)
         return value
       },
       set(newValue: T) {
         value = newValue
-        console.log('trigger on ', value)
         trigger()
+        console.log('trigger ', value)
       },
     }
   })
