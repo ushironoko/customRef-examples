@@ -1,19 +1,19 @@
 {
-  "name": "customRefs",
+  "name": "custom-refs",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
   "dependencies": {
-    "vue": "^3.0.0-rc.1"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0",
     "eslint": "^7.6.0",
     "eslint-config-ushironoko-vue": "^1.2.0",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.7",
-    "vite": "^1.0.0-rc.1"
+    "typescript": "^4.0.3",
+    "vite": "^1.0.0-rc.4"
   }
 }
